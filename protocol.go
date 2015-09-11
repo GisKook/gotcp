@@ -1,9 +1,5 @@
 package gotcp
 
-import (
-	"net"
-)
-
 type Packet interface {
 	Serialize() []byte
 }
